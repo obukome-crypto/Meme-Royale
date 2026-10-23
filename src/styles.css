@@ -1,0 +1,27 @@
+/* Mobile-first styles. Phones get the layout by default, bigger screens just center it. */
+* { box-sizing: border-box; }
+body { margin: 0; background: #111; color: #f5f5f5; font-family: system-ui, -apple-system, sans-serif; }
+h1, h2 { margin: 0.3em 0; }
+.app { min-height: 100vh; display: flex; flex-direction: column; max-width: 520px; margin: 0 auto; }
+.topbar { padding: 14px 16px; border-bottom: 1px solid #222; }
+.topbar h1 { font-size: 22px; color: #ffcc00; }
+.content { flex: 1; padding: 14px 16px 90px; }
+.center { text-align: center; padding: 40px 16px; }
+.card { background: #1d1d1d; border-radius: 16px; padding: 14px; margin-bottom: 14px; }
+.template { width: 100%; border-radius: 12px; display: block; margin-bottom: 8px; }
+.btn { display: inline-block; background: #ffcc00; color: #111; border: 0; border-radius: 12px; padding: 12px 16px; font-weight: 700; text-decoration: none; cursor: pointer; font-size: 16px; }
+.btn.ghost { background: #2a2a2a; color: #f5f5f5; }
+.btn:disabled { opacity: 0.5; }
+textarea, input { width: 100%; padding: 12px; border-radius: 12px; border: 1px solid #333; background: #181818; color: #f5f5f5; font-size: 16px; }
+.hint { color: #999; font-size: 13px; }
+.error { color: #ff6b6b; font-size: 14px; }
+.caption-btn { display: block; width: 100%; margin: 10px 0; padding: 18px; border-radius: 14px; border: 2px solid #333; background: #1d1d1d; color: #f5f5f5; font-size: 18px; font-weight: 600; cursor: pointer; }
+.caption-btn:active { border-color: #ffcc00; }
+.vs { text-align: center; color: #666; font-weight: 700; }
+.small-link { background: none; border: 0; color: #888; font-size: 13px; text-decoration: underline; cursor: pointer; padding: 4px 0; }
+.bottomnav { position: fixed; bottom: 0; left: 50%; transform: translateX(-50%); width: 100%; max-width: 520px; display: flex; background: #181818; border-top: 1px solid #222; padding-bottom: env(safe-area-inset-bottom); }
+.bottomnav a { flex: 1; text-align: center; padding: 14px 0; color: #888; text-decoration: none; font-size: 13px; }
+.bottomnav a.active { color: #ffcc00; font-weight: 700; }
+.badge { display: inline-block; background: #2a2a2a; border-radius: 999px; padding: 6px 12px; margin: 4px; font-size: 14px; }
+.stat-row { display: flex; justify-content: space-between; padding: 6px 0; border-bottom: 1px solid #262626; }
+.top-list li { margin: 8px 0; }

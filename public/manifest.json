@@ -1,0 +1,10 @@
+{
+  "name": "Meme Royale",
+  "short_name": "Meme Royale",
+  "description": "Daily meme caption battle",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#111111",
+  "theme_color": "#111111",
+  "icons": []
+}
